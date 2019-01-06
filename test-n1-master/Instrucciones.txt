@@ -1,0 +1,38 @@
+Evaluación N1
+
+Objetivo:
+	Evaluar el código y funcionamiento del presente trabajo.
+	Se deberá realizar un formulario de contacto, que envíe un email con ciertos campos y que valide los campos tanto en el browser como en el servidor.
+	No es necesario que tenga diseño alguno.
+
+
+Procedimiento:
+	* Clonar este repositorio
+	* Crear un repositorio nuevo (Github/Gitlab/etc...) en una cuenta personal, para este trabajo
+	* Subir por ftp el trabajo terminado y funcional (Si no tiene ftp, solicitar uno)
+	* Actualizar repositorio del trabajo
+	* Enviar link al repositorio.
+
+Requisitos:
+	* jQuery 3.x
+	* Plugin para validar formulario en browser (Ej.: validation-engine)
+	* Campos: Nombre, Email, Teléfono y Mensaje
+	* Campos obligatorios: Email y Mensaje
+	* Validar formato email (cliente y servidor).
+	* Validar el post en el servidor.
+	* Usar mail() para enviar el email
+	* Campos email de destino y asunto, configurables en el php.
+	* Usar dentro de public_html: index.php para el formulario, sendform.php para enviar el email, app.js para toda la lógica cliente, y css.css para los estilos
+	* El formulario se debe enviar vía AJAX
+	* Considerar mensajes de "Enviando...", "Error...", "Mensaje enviado" (ocultar formulario para mostrar este mensaje)
+	* HTML5/CSS3
+	* No usar js o css inline
+	* Indentado a 2 espacios (no tab)
+
+Puntos de interes de la evaluación:
+  * Claridad del código
+  * Simplicidad
+  * Lectura
+  * Estructura
+  * Seguridad
+  * Originalidad

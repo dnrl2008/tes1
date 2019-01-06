@@ -1,0 +1,79 @@
+body{
+    padding: 0px;
+    border: 0px;
+    background: rgba(27, 83, 238, 0.562);
+}
+section{
+    height: 500px;
+    width: 500px;
+    margin-left: 450px;
+    margin-top: 100px;
+    
+
+}
+
+#dat_form{
+    border-radius: 30px;
+    height: 450px;
+    width: 450px; 
+    padding-left: 50px;
+    padding-top: 50px;
+    background: white;
+    box-shadow: 5px 5px 5px 5px #888888d8;
+   
+
+}
+#msg_index{
+   position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 150px;
+    background: rgb(19, 18, 18);
+    z-index: 2;
+    color: white;
+    display: none;
+}
+#msg{
+    color: red;
+}
+#msg1{
+    color: red;
+}
+
+.generica{
+
+    height: 15px;
+    width: 400px;
+    border:none;
+    border-bottom: 1px solid rgba(0, 0, 255, 0.61);
+}
+.bot{
+
+    height: 25px;
+    width: 300px;
+    margin-left: 50px;
+
+}
+.textA{
+    border-color: rgba(0, 0, 255, 0.61);
+  
+
+}
+.text{
+    color: rgba(2, 2, 2, 0.61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.Mfor{
+
+    font-size: 30px;
+    color: rgba(7, 44, 145, 0.87);
+    padding-left: 120px;
+
+
+}
+.error{
+    color: red;
+}
+
